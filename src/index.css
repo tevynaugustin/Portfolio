@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Arvo:wght@400;700&family=Kanit:wght@300;400;500&family=Mitr:wght@400;500&family=Rubik&family=Tilt+Warp&family=Viga&display=swap');
+
+:root {
+  --textColor: #616F39;
+  --highlight: #A7D129;
+  --descriptionFont: 'Rubik', sans-serif;
+  --headerFont: 'Kanit', sans-serif;
+}
+
+.highlight {
+  color: var(--highlight);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +18,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 code {
