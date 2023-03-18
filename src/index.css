@@ -1,14 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Arvo:wght@400;700&family=Kanit:wght@300;400;500&family=Mitr:wght@400;500&family=Rubik&family=Tilt+Warp&family=Viga&display=swap');
+
 
 :root {
-  --textColor: #616F39;
-  --highlight: #A7D129;
+  --headerColor: #865439;
+  --textColor: gray;
+  --highlight: #;
   --descriptionFont: 'Rubik', sans-serif;
   --headerFont: 'Kanit', sans-serif;
 }
 
 .highlight {
   color: var(--highlight);
+}
+
+#container {
+  margin-top: 350px;
+}
+
+.description {
+  color: var(--textColor);
+  font-family: var(--descriptionFont);
+  text-align: left;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  margin-left: 150px;
+  margin-top: 50px;
+  line-height: 25px;
 }
 
 body {
@@ -18,9 +35,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
+  background-color: #fff;
   padding: 0;
   box-sizing: border-box;
+}
+
+.title {
+  color: var(--headerColor);
+  font-size: 75px;
+  font-family: var(--headerFont);
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  margin-left: 150px;
 }
 
 code {

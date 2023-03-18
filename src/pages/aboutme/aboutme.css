@@ -1,0 +1,27 @@
+#container img {
+    position: relative;
+    top: 35px;
+    width: 20%;
+    height: 20%;
+    border: 6px solid var(--headerColor);
+    border-radius: 25px;
+    float: right;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#container ul {
+    text-align: left;
+    list-style-type: square;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    width: 500px;
+}
+
+#container ul li {
+    font-family: var(--descriptionFont);
+    color: var(--headerColor);
+    font-size: 18px;
+    margin-left: 125px;
+}

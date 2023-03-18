@@ -1,21 +1,22 @@
 #heading {
+    position: relative;
+    top: 40px;
+}
+
+#heading .landingDescription {
+    position: relative;
+    top: 100px;
+    color: var(--textColor);
+    font-family: var(--descriptionFont);
+    text-align: left;
     margin: auto;
     width: 100%;
     height: 100%;
-    text-align: left;
     padding-left: 150px;
-    position: relative;
-    top: 275px;
-}
-
-#heading .title {
-    color: var(--textColor);
-    font-size: 75px;
-    font-family: var(--headerFont)
-}
-
-#heading .description {
     padding-top: -150px;
-    color: var(--textColor);
-    font-family: var(--descriptionFont);
+}
+
+#heading .landingTitle {
+    position: relative;
+    top: 50px;
 }
