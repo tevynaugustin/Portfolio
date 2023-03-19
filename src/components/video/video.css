@@ -3,9 +3,11 @@
     height: 400px;
     object-fit: cover;
     filter: brightness(50%);
+    margin: 0;
 }
 
 #videoContainer {
     height: auto;
+    margin: 0;
 }
 

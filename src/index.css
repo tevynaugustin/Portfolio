@@ -9,7 +9,7 @@
 }
 
 .highlight {
-  color: var(--highlight);
+  color: var(--headerColor);
 }
 
 #container {
@@ -26,6 +26,11 @@
   margin-left: 150px;
   margin-top: 50px;
   line-height: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%
 }
 
 body {

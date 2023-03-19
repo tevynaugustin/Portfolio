@@ -1,0 +1,23 @@
+#experience .jobTitle {
+    font-family: var(--headerFont);
+    font-size: 30px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+#experience .expDate {
+    text-align: left;
+    margin-left: 150px;
+    font-family: var(--descriptionFont);
+    color: var(--headerColor);
+}
+
+#experience ul {
+    columns: 1;
+    width: 720px;
+} 
+
+#experience ul li {
+    margin-bottom: 25px;
+    color: var(--textColor);
+}

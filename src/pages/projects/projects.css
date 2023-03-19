@@ -1,0 +1,46 @@
+#projects {
+    height: 750px;
+}
+
+#projects .projectCard {
+    position: relative;
+    top: 75px;
+    width: 23%;
+    height: 400px;
+    margin: auto;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#projects .projectCard .cardText {
+    text-align: left;
+    margin-left: 20px;
+    font-family: var(--headerFont);
+}
+
+#projects .folderIcon {
+    color: var(--headerColor);
+    padding: 15px;
+    text-align: left;
+}
+
+#projects .gitIcon {
+    float: right;
+    margin-right: 20px;
+    color: var(--headerColor);
+    margin-top: 75px;
+}
+
+#projects .arrowIcon {
+    float: left;
+    margin-left: 20px;
+    color: var(--headerColor);
+    margin-top: 85px;
+}
+
+#projects .cardDesc {
+    color: var(--textColor);
+    text-align: left;
+    margin-left: 20px;
+}

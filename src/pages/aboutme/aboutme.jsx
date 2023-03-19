@@ -7,6 +7,7 @@ import logo from './pic.png'
 function About() {
   return (
     <div id='container'>
+      <section id="about">
         <AnimationOnScroll animateIn="animate__backInDown">
         <h1 id='About' className="title">about me</h1>
         </AnimationOnScroll>
@@ -33,6 +34,8 @@ function About() {
             </h3>
         </AnimationOnScroll>
 
+        <br/>
+
         <AnimationOnScroll animateIn='animate_fadeInUp'>
           <ul className="skillList">
             <li className="skill">HTML & CSS</li>
@@ -43,6 +46,7 @@ function About() {
             <li className="skill">SQL</li>
           </ul>
         </AnimationOnScroll> 
+        </section>
     </div>
   )
 }
