@@ -11,3 +11,9 @@
     margin: 0;
 }
 
+@media only screen and (max-width: 420px) {
+    #videoContainer {
+        width: 800px;
+    }
+}
+

@@ -20,3 +20,23 @@
     position: relative;
     top: 50px;
 }
+
+/* Mobile Config */
+@media only screen and (max-width: 420px) {
+
+    #heading .landingTitle {
+        text-align: center;
+        width: fit-content;
+        font-size: 4.5rem;
+        margin: auto;
+        width: 500px;
+        padding-left: 45px;
+    }
+
+    #heading .landingDescription {
+        width: 150%;
+        text-align: left;
+        margin: auto;
+        padding-left: 100px;
+    }
+}

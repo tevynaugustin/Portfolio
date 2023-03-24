@@ -25,3 +25,27 @@
     font-size: 18px;
     margin-left: 125px;
 }
+
+#about .description {
+    max-width: 790px;
+}
+
+/* Mobile Config */
+@media only screen and (max-width: 400px) {
+    #about img {
+        display: none;
+    }
+
+    #about {
+        width: 140%;
+    }
+
+    #about .description {
+        text-align: center;
+    }
+
+    #about ul {
+        position: relative;
+        left: 50px;
+    }
+}
