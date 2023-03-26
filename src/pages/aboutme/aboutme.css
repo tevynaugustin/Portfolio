@@ -42,10 +42,12 @@
 
     #about .description {
         text-align: center;
+        font-size: 1rem;
+        margin-left: 25px;
+        max-width: 350px;
     }
 
-    #about ul {
-        position: relative;
-        left: 50px;
+    #about ul li { 
+        margin-left: 10px;
     }
 }

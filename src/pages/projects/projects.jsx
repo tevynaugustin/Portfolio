@@ -19,7 +19,7 @@ function Projects() {
                     <h2 className='cardText'>Album E-Commerce Store</h2>
                     <h4 className="cardDesc">
                         An E-Commerce Site where you can add/remove items from your basket
-                        dynamically.
+                        dynamically. (not done yet fully)
                         <br /><br />
                         ReactJS, Javascript, HTML/CSS
                     </h4>

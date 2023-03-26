@@ -25,18 +25,22 @@
 /* Mobile Conig */
 @media only screen and (max-width: 420px) {
     #experience .jobTitle {
-        margin-left: 100px;
-        width: 500px;
-        font-size: 24px;
+        margin-left: 30px;
+        max-width: 500px;
+        font-size: 1.5rem;
     }
 
     #experience .expDate {
-        margin-left: 100px;
+        margin-left: 30px;
     }
 
     #experience ul {
-        max-width: 500px;
+        max-width: 320px;
         text-align: center;
         list-style-type: none;
+    }
+
+    #experience ul li {
+        margin-left: 0;
     }
 }

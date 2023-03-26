@@ -13,7 +13,7 @@
 }
 
 #container {
-  margin-top: 350px;
+  margin-top: 250px;
 }
 
 .description {
@@ -62,8 +62,14 @@ code {
 }
 
 @media only screen and (max-width: 420px) {
+  #container {
+    margin-top: 300px;
+  }
+
   .title {
     margin-left: 100px;
+    font-size: 3.2rem;
+    margin-left: 30px;
   }
 
   .description {
