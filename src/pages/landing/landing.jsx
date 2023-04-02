@@ -18,6 +18,10 @@ function Landing() {
             <br/>
             I'm a <span className='highlight'>customer solutions developer</span> based in Peterborough
         </h2>
+
+          <a href='mailto:tevynaugustin@gmail.com'>
+            <button className="contactBtn">Let's talk :)</button>
+          </a>
         </section>
     </div>
   )
