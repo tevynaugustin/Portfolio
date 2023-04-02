@@ -12,7 +12,7 @@ function Experience() {
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn='animate__backInDown'>
-                <h2 className='jobTitle'>Customer Solutions Developer @ <span className='highlight'>Paragon</span></h2>
+                <h2 className='jobTitle'>Customer Solutions Developer <br/> @ <span className='highlight'>Paragon</span></h2>
                 <h4 className='expDate'>March 2022 - Present</h4>
                 <AnimationOnScroll animateIn='animate__fadeInUp'>
                 <ul className="descList">
