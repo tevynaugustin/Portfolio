@@ -50,7 +50,7 @@ body {
   font-size: 75px;
   font-family: var(--headerFont);
   margin: auto;
-  width: fit-content;
+  max-width: fit-content;
   height: 100%;
   text-align: left;
   margin-left: 150px;
@@ -70,9 +70,11 @@ code {
     margin-left: 100px;
     font-size: 3.2rem;
     margin-left: 30px;
+    max-width: fit-content;
   }
 
   .description {
     margin-left: 100px;
+    max-width: fit-content;
   }
 }
