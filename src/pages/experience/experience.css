@@ -15,7 +15,7 @@
 
 #experience ul {
     columns: 1;
-    width: 720px;
+    width: 320px;
 } 
 
 #experience ul li {
@@ -29,7 +29,7 @@
         margin: auto;
         margin-top: 15px;
         text-align: center;
-        max-width: 500px;
+        width: 100%;
         font-size: 1.3rem;
     }
 

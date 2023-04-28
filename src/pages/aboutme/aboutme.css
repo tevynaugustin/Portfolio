@@ -16,7 +16,7 @@
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-    width: 500px;
+    width: 350px;
 }
 
 #container ul li {
@@ -37,14 +37,15 @@
     }
 
     #about {
-        width: 140%;
+        width: 100%;
     }
 
     #about .description {
         text-align: center;
         font-size: 1rem;
-        margin-left: 25px;
-        max-width: 350px;
+        margin-left: 0px;
+        max-width: fit-content;
+        max-width: 790px;
     }
 
     #about ul li { 

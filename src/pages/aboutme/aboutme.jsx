@@ -14,18 +14,18 @@ function About() {
         
         <AnimationOnScroll animateIn='animate__fadeInUp'>
             <h3 className='description'>
-                I'm currently employed as a PEP Developer by Paragon Customer Communications in 
-                Peterborough. With over a year of experience in the industry, I specialise in
-                web design, User interface (UI) design and the utilization of libraries & frameworks
-                such as JQuery, React, etc, and I'm constantly striving to improve my skills and learn 
-                new technologies.
+                I'm currently employed as a PEP Developer <br/> by Paragon Customer Communications <br/> in 
+                Peterborough. With over a year <br/> of experience in the industry, I specialise <br/> in
+                web design, User interface (UI) <br/> design and the utilization of libraries <br/> & frameworks
+                such as JQuery, <br/> React, etc, and I'm constantly striving <br/> to improve my skills and learn 
+                <br/>new technologies.
                 <br/> <br/>
-                I believe heavily in working towards purpose, and i'm always looking for more efficient
-                ways to create solutions to help businesses grow. I'm passionate about creating clear,
-                modern designs that convey a message effectivley.
+                I believe heavily in working towards <br/> purpose, and i'm always looking <br/> for more efficient
+                ways to create <br/> solutions to help businesses <br/> grow. I'm passionate about <br/>creating clear,
+                modern designs <br/> that convey a message effectivley.
                 <br/><br/>
-                When i'm not coding, I enjoy reading fantasy books, gaming, exercising and listening to music. I'm also
-                fond of natures, and when i'm bored i'd likely go on walks to either take <br/> pictures, clear my head, or Both.
+                When i'm not coding, I enjoy <br/> reading fantasy books, gaming,<br/> exercising and listening to music. <br/> I'm also
+                fond of natures, and <br/> when i'm bored i'd likely <br/> go on walks to either take <br/> pictures, clear my head, or Both.
                 
             </h3>
         </AnimationOnScroll>
