@@ -1,15 +1,15 @@
 
 
 :root {
-  --headerColor: #865439;
-  --textColor: gray;
-  --highlight: #;
+  --headerColor: #BFA181;
+  --textColor: #869ba9;
+  --highlight: #178582;
   --descriptionFont: 'Rubik', sans-serif;
   --headerFont: 'Kanit', sans-serif;
 }
 
 .highlight {
-  color: var(--headerColor);
+  color: var(--highlight);
 }
 
 #container {
@@ -40,7 +40,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
+  background-color: #0A1828;
   padding: 0;
   box-sizing: border-box;
 }

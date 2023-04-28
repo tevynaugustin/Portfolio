@@ -1,6 +1,6 @@
 import React from 'react'
 import './video.css';
-import bgImg from './background-img.mp4';
+import bgImg from './stars-109821.mp4';
 
 function Video() {
   return (

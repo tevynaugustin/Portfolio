@@ -2,6 +2,7 @@
     font-family: var(--headerFont);
     font-size: 30px;
     text-align: left;
+    color: var(--headerColor);
     margin-left: 150px;
 }
 

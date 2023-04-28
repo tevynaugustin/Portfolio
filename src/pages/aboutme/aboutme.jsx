@@ -2,7 +2,7 @@ import React from 'react'
 import './aboutme.css'
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import logo from './pic.png'
+
 
 function About() {
   return (
@@ -11,10 +11,6 @@ function About() {
         <AnimationOnScroll animateIn="animate__backInDown">
         <h1 id='About' className="title">about me</h1>
         </AnimationOnScroll>
-
-        <AnimationOnScroll animateIn='animate__backInDown'>
-          <img src={logo} alt="" />  
-        </AnimationOnScroll>   
         
         <AnimationOnScroll animateIn='animate__fadeInUp'>
             <h3 className='description'>

@@ -14,13 +14,13 @@
 
 
 #contact ul li {
-    color: black;
+    color: var(--highlight);
     margin-top: 5px;
     transition: .2s ease-in-out;
 }
 
 #contact ul li:hover {
-    color: var(--headerColor);
+    color: #14716e;
 }
 
 /* Mobile Config */

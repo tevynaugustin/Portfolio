@@ -9,14 +9,14 @@ function Landing() {
       <section id="landing">
         <h1 className="title landingTitle">
         <Typewriter onInit={(typewriter) => {
-        typewriter.typeString('hi, <span class="highlight">TJ</span> here.').start();
+        typewriter.typeString('hi, TJ here.').start();
         }}/>
         </h1>
         <h2 className='landingDescription'>
             I create cool things sometimes
             <br/>
             <br/>
-            I'm a <span className='highlight'>customer solutions developer</span> based in Peterborough
+            I'm a customer solutions developer based in Peterborough
         </h2>
 
           <a href='mailto:tevynaugustin@gmail.com'>
