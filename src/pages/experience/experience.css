@@ -2,7 +2,7 @@
     font-family: var(--headerFont);
     font-size: 30px;
     text-align: left;
-    color: var(--headerColor);
+    color: var(--textColor);
     margin-left: 150px;
 }
 
@@ -10,17 +10,37 @@
     text-align: left;
     margin-left: 150px;
     font-family: var(--descriptionFont);
-    color: var(--headerColor);
+    color: var(--textColor);
 }
 
 #experience ul {
-    columns: 1;
-    width: 620px;
+    columns: 3;
+    width: 750px;
+    margin: auto;
 } 
 
 #experience ul li {
+    margin-left: 0;
     margin-bottom: 25px;
+    line-height: 25px;
+    vertical-align: middle;
     color: var(--textColor);
+    list-style-type: none;
+    border: 3px solid var(--headerColor);
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+#experience ul li:nth-child(2) {
+    margin-left: 50px;
+}
+
+#experience ul li:nth-child(3) {
+    margin-left: 100px;
 }
 
 /* Mobile Conig */
@@ -31,6 +51,27 @@
         text-align: center;
         width: 100%;
         font-size: 1.3rem;
+    }
+
+    #experience ul {
+        columns: 1;
+        margin-left: 0;
+    }
+
+    #experience ul li:nth-child(3) {
+        margin-left: 0;
+    }
+
+    #experience ul li:nth-child(2) {
+        margin-left: 0;
+    }
+
+    #experience ul li {
+        border: none;
+        vertical-align: auto;
+        height: 125px;
+        padding: 0;
+        width: 300px;
     }
 
     #experience .expDate {

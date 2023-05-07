@@ -1,9 +1,9 @@
 
 
 :root {
-  --headerColor: #BFA181;
-  --textColor: #869ba9;
-  --highlight: #178582;
+  --headerColor: #D65A31;
+  --textColor: #EEEEEE;
+  --highlight: #D65A31;
   --descriptionFont: 'Rubik', sans-serif;
   --headerFont: 'Kanit', sans-serif;
 }
@@ -40,7 +40,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0A1828;
+  background-color: #222831;
   padding: 0;
   box-sizing: border-box;
 }

@@ -8,11 +8,10 @@ function About() {
   return (
     <div id='container'>
       <section id="about">
-        <AnimationOnScroll animateIn="animate__backInDown">
-        <h1 id='About' className="title">about me</h1>
+      <AnimationOnScroll animateIn="animate__backInDown">
+        <h1 id='AboutTop' className="title">about me</h1>
         </AnimationOnScroll>
-        
-        <AnimationOnScroll animateIn='animate__fadeInUp'>
+        <AnimationOnScroll animateIn='animate__zoomIn'>
             <h3 className='description'>
                 I'm currently employed as a PEP Developer by Paragon Customer Communications in 
                 Peterborough. With over a year of experience in the industry, I specialise in
@@ -25,14 +24,16 @@ function About() {
                 modern designs that convey a message effectivley.
                 <br/><br/>
                 When i'm not coding, I enjoy reading fantasy books, gaming, exercising and listening to music. I'm also
-                fond of natures, and when i'm bored i'd likely go on walks to either take <br/> pictures, clear my head, or Both.
-                
+                fond of natures, and when i'm bored i'd likely go on walks to either take <br/> pictures, clear my head, or Both. 
             </h3>
+        </AnimationOnScroll>
+        <AnimationOnScroll animateIn="animate__backInDown">
+        <h1 id='About' className="title">about me</h1>
         </AnimationOnScroll>
 
         <br/>
 
-        <AnimationOnScroll animateIn='animate_fadeInUp'>
+        {/* <AnimationOnScroll animateIn='animate_fadeInUp'>
           <ul className="skillList">
             <li className="skill">HTML & CSS</li>
             <li className="skill">Jquery</li>
@@ -41,7 +42,7 @@ function About() {
             <li className="skill">C#</li>
             <li className="skill">SQL</li>
           </ul>
-        </AnimationOnScroll> 
+        </AnimationOnScroll>  */}
         </section>
     </div>
   )
