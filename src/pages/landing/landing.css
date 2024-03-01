@@ -1,6 +1,11 @@
+#landing {
+    height: 100vh;
+}
+
 #heading {
     position: relative;
-    top: 40px;
+    top: 25%;
+    width: max-content;
 }
 
 #heading .landingDescription {
@@ -11,14 +16,37 @@
     text-align: left;
     margin: auto;
     height: 100%;
-    padding-left: 150px;
-    padding-top: -150px;
+    margin-left: 150px;
 }
+
+#videoContainer video {
+    width: max-content;
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(75%);
+    margin: 0;
+}
+
+#videoContainer {
+    width: max-content;
+    height: auto;
+    margin: 0;
+    float: right;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+    #videoContainer {
+        width: max-content;
+    }
+}
+
+
 
 #heading .landingTitle {
     position: relative;
     top: 50px;
-    width: fit-content;
+    width: max-content;
 }
 
 .contactBtn {
@@ -31,12 +59,12 @@
     font-size: 1.3rem;
     font-weight: 700;
     padding: 25px 35px;
-    float: right;
+    float: left;
     margin-right: 200px;
-    margin-top: 50px;
-    position: relative;
+    margin-top: 175px;
     color: var(--headerColor);
     transition: all .3s ease-in-out;
+    margin-left: 150px;
 }
 
 .contactBtn:hover {
@@ -58,7 +86,7 @@
     }
 
     #heading .landingDescription {
-        max-width: fit-content;
+        max-width: max-content;
         text-align: left;
         margin: auto;
         font-size: 1rem;

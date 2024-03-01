@@ -2,11 +2,12 @@ import React from 'react'
 import './landing.css'
 import Typewriter from 'typewriter-effect';
 import "animate.css/animate.min.css";
+import bgImg from '../../components/video/motion-graphcs-real.mp4';
 
 function Landing() {
   return (
+    <section id="landing">
     <div id="heading">
-      <section id="landing">
         <h1 className="title landingTitle">
         <Typewriter onInit={(typewriter) => {
         typewriter.typeString('hi, TJ here.').start();
@@ -22,8 +23,14 @@ function Landing() {
           <a href='mailto:tevynaugustin@gmail.com'>
             <button className="contactBtn">Let's talk :)</button>
           </a>
-        </section>
     </div>
+
+    <div id='videoContainer'>
+        <video autoPlay loop muted>
+            <source src={bgImg} type='video/mp4'/>
+        </video>
+    </div>
+    </section>
   )
 }
 

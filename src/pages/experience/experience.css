@@ -15,15 +15,19 @@
 
 #experience ul {
     columns: 3;
-    width: 750px;
-    margin: auto;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
 } 
 
 #experience ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 0;
     margin-bottom: 25px;
     line-height: 25px;
-    vertical-align: middle;
     color: var(--textColor);
     list-style-type: none;
     border: 3px solid var(--headerColor);
@@ -31,7 +35,7 @@
     text-align: center;
     margin: auto;
     padding: 20px;
-    width: 100%;
+    width: auto;
     height: 300px;
 }
 

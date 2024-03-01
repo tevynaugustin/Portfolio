@@ -1,9 +1,13 @@
-
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 :root {
-  --headerColor: #D65A31;
+  --headerColor: #4ECCA3;
   --textColor: #EEEEEE;
-  --highlight: #D65A31;
+  --highlight: #4ECCA3;
   --descriptionFont: 'Rubik', sans-serif;
   --headerFont: 'Kanit', sans-serif;
 }
@@ -40,7 +44,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #222831;
+  background-color: #232931;
   padding: 0;
   box-sizing: border-box;
 }
@@ -50,7 +54,7 @@ body {
   font-size: 75px;
   font-family: var(--headerFont);
   margin: auto;
-  max-width: fit-content;
+  max-width: max-content;
   height: 100%;
   text-align: left;
   margin-left: 150px;
@@ -70,11 +74,11 @@ code {
     margin-left: 100px;
     font-size: 3.2rem;
     margin-left: 30px;
-    max-width: fit-content;
+    max-width: max-content;
   }
 
   .description {
     margin-left: 135px;
-    max-width: fit-content;
+    max-width: max-content;
   }
 }
