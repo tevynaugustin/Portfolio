@@ -23,6 +23,8 @@ function Landing() {
           <a href='mailto:tevynaugustin@gmail.com'>
             <button className="contactBtn">Let's talk :)</button>
           </a>
+
+          
     </div>
 
     <div id='videoContainer'>

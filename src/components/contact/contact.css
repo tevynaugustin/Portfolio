@@ -20,10 +20,3 @@
 #contact ul li:hover {
     color: #571f0d;
 }
-
-/* Mobile Config */
-@media only screen and (max-width: 480px) {
-    #contact {
-        display: none;
-    }
-}
