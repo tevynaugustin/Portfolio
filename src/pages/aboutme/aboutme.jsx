@@ -14,17 +14,16 @@ function About() {
         <AnimationOnScroll animateIn='animate__zoomIn'>
             <h3 className='description'>
                 I'm currently employed as a PEP Developer by Paragon Customer Communications in 
-                Peterborough. With over a year of experience in the industry, I specialise in
+                Peterborough. With over a year of experience in the industry, I specialize in
                 web design, User interface (UI) design and the utilization of libraries & frameworks
                 such as JQuery, React, etc, and I'm constantly striving to improve my skills and learn 
                 new technologies.
                 <br/> <br/>
                 I believe heavily in working towards purpose, and i'm always looking for more efficient
                 ways to create solutions to help businesses grow. I'm passionate about creating clear,
-                modern designs that convey a message effectivley.
+                modern designs that convey a message effectively.
                 <br/><br/>
-                When i'm not coding, I enjoy reading fantasy books, gaming, exercising and listening to music. I'm also
-                fond of natures, and when i'm bored i'd likely go on walks to either take <br/> pictures, clear my head, or Both. 
+                When i'm not coding i enjoy gaming, going to the gym and listening to music. 
             </h3>
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__backInDown">

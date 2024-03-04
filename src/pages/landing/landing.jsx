@@ -7,6 +7,11 @@ import bgImg from '../../components/video/motion-graphcs-real.mp4';
 function Landing() {
   return (
     <section id="landing">
+      <div id='videoContainer'>
+        <video autoPlay loop muted>
+            <source src={bgImg} type='video/mp4'/>
+        </video>
+    </div>
     <div id="heading">
         <h1 className="title landingTitle">
         <Typewriter onInit={(typewriter) => {
@@ -20,17 +25,9 @@ function Landing() {
             I'm a customer solutions developer based in Peterborough
         </h2>
 
-          <a href='mailto:tevynaugustin@gmail.com'>
-            <button className="contactBtn">Let's talk :)</button>
-          </a>
+          <a href='mailto:tevynaugustin@gmail.com' className='contactBtn'>Let's talk :)</a>
 
           
-    </div>
-
-    <div id='videoContainer'>
-        <video autoPlay loop muted>
-            <source src={bgImg} type='video/mp4'/>
-        </video>
     </div>
     </section>
   )
