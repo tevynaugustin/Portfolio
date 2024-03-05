@@ -43,11 +43,102 @@
     max-width: 790px;
 }
 
-@media only screen and (max-width: 1200px) {
+/* Traditional Laptop Breakpoint */
+@media only screen and (max-width: 1300px) {
+    #container #about {
+        height: 500px;
+    }
+
     #container #about .description {
         font-size: 20px;
     }
     #container #about .title {
         font-size: 56px;
+    }
+}
+/* ------------------------------------------------------------------ */
+
+/* Keeping Video Element Fluid */
+@media only screen and (max-width: 1060px) {
+    #container #about .title {
+        margin-left: 50px;
+    }
+}
+/* ------------------------------------------------------------------- */
+
+/* Remove Video */
+@media only screen and (max-width: 999px) {
+    #container #about .title {
+        margin-left: 0;
+        writing-mode: horizontal-tb;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0px;
+    }
+
+    #container #about .description {
+        margin-top: 75px;
+        text-align: center;
+        font-size: 18px;
+        margin-right: 0;
+        padding: 0 15px 0 15px;
+        float: right;
+    }
+}
+/* ------------------------------------------------------------------- */
+
+/* Styling for Tablets etc */
+@media only screen and (max-width: 800px) {
+    #container #about .description {
+        font-size: 16px;
+        padding: 0 0 0 0px
+    }
+}
+/* ------------------------------------------------------------------- */
+
+/* Styling for Smaller Devices */
+@media only screen and (max-width: 600px) {
+    #container #about {
+        height: 550px
+    }
+    #container #about .title {
+        font-size: 50px;
+    }
+    #container #about .description {
+        font-size: 15px;
+    }
+}
+
+/* More Small Device Styling */
+@media only screen and (max-width: 500px) {
+    #container #about {
+        height: 600px;
+    }
+    #container #about .title {
+        font-size: 40px;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #container #about {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    #container #about .description {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #container #about {
+        height: 675px;
+    }
+
+    #container #about .title {
+        font-size: 35px;
     }
 }

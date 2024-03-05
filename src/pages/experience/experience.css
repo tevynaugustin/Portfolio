@@ -42,51 +42,19 @@
 
 /* Keeping Video Element Fluid */
 @media only screen and (max-width: 1060px) {
-    #landing #videoContainer {
-        position: relative;
-        top: 200px;
-    }
-    #landing #videoContainer video {
-        height: 250px;
-    }
+
 }
 /* ------------------------------------------------------------------- */
 
 /* Remove Video */
 @media only screen and (max-width: 977px) {
-    #landing #videoContainer {
-        display: none;
-    }
 
-    #landing #heading .title {
-        margin-left: 0;
-    }
-    #landing #heading .landingDescription {
-        margin: 0;
-        width: 100vw;
-        text-align: center;
-    }
-    
-    #landing .contactBtn {
-        text-align: center;
-        margin-left: 0;
-        position: relative;
-        top: 40px;
-        float: none;
-    }
-
-    #landing #heading .Typewriter{
-        width: 100vw;
-        text-align: center;
-    }
 }
 /* ------------------------------------------------------------------- */
 
 /* Styling for Tablets etc */
 @media only screen and (max-width: 800px) {
-    #heading .landingDescription {
-        text-align: left;
-    }
+    
 }
 /* ------------------------------------------------------------------- */
 

@@ -2,6 +2,10 @@
     height: 750px;
 }
 
+#projects .title {
+    width: max-content;
+}
+
 #projects .projectCard {
     position: relative;
     top: 75px;
@@ -52,3 +56,66 @@
     text-align: left;
     margin-left: 20px;
 }
+
+/* Traditional Laptop Breakpoint */
+@media only screen and (max-width: 1240px) {
+    #projects .title {
+        font-size: 67px;
+    }
+}
+/* ------------------------------------------------------------------ */
+
+/* Keeping Video Element Fluid */
+@media only screen and (max-width: 1060px) {
+    #projects .title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        text-align: center;
+    }
+
+    #projects .projectCard {
+        margin:100px 0 0 0;
+    }
+}
+/* ------------------------------------------------------------------- */
+
+/* Small Device Styles */
+@media only screen and (max-width: 650px) {
+    #projects .projectCard {
+        width: 300px;
+    }
+    #projects .cardDesc {
+        font-size: 12px;
+    }
+    #projects .fa-2x {
+        font-size: 1.7em;
+    }
+}
+/* ------------------------------------------------------------------- */
+
+/* Smaller Phones */
+@media only screen and (max-width: 430px) {
+    #projects .title {
+        font-size: 55px;
+    }
+
+    #projects .projectCard {
+        margin: 75px 0 0 0;
+        width: 250px;
+    }
+
+    #projects .fa-3x {
+        font-size: 2.4em;
+    }
+
+    #projects .cardText {
+        font-size: 1.3em;
+    }
+
+    #projects .fa-2x {
+        font-size: 1.4em;
+    }
+}
+/* ------------------------------------------------------------------- */
