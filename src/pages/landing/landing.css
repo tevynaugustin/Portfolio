@@ -29,7 +29,7 @@
 
 #videoContainer {
     position: relative;
-    top: 150px;
+    top: 200px;
     /* width: 100%; */
     max-width: 50%;
     height: auto;
@@ -94,7 +94,7 @@ a {
 }
 
 /* Traditional Laptop Breakpoint */
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1400px) {
     #heading .title {
         font-size: 55px;
     }
@@ -114,6 +114,11 @@ a {
     }
     #landing #videoContainer {
         margin-left: 25px;
+        position: relative;
+        top: 225px;
+    }
+    #landing #videoContainer video {
+        height: 350px;
     }
 }
 /* ------------------------------------------------------------------ */
@@ -122,7 +127,7 @@ a {
 @media only screen and (max-width: 1060px) {
     #landing #videoContainer {
         position: relative;
-        top: 200px;
+        top: 280px;
     }
     #landing #videoContainer video {
         height: 250px;
