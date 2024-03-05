@@ -2,9 +2,12 @@ import React from 'react'
 import './landing.css'
 import Typewriter from 'typewriter-effect';
 import "animate.css/animate.min.css";
+import CV from '../../Tevyn-Augustin-CV.pdf'
 import bgImg from '../../components/video/motion-graphcs-real.mp4';
 
 function Landing() {
+
+
   return (
     <section id="landing">
       <div id='videoContainer'>
@@ -24,8 +27,10 @@ function Landing() {
             <br/>
             I'm a customer solutions developer based in Peterborough
         </h2>
-
-          <a href='mailto:tevynaugustin@gmail.com' className='contactBtn'>Let's talk :)</a>
+        <div className="buttons">
+        <a href='mailto:tevynaugustin@gmail.com' className='contactBtn'>Let's talk :)</a>
+          <a href={CV} className='downloadCV'>Click to see my resume!</a>
+        </div>
 
           
     </div>

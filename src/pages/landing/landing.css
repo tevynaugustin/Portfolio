@@ -14,7 +14,7 @@
     text-align: left;
     margin: auto;
     height: 100%;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 #videoContainer video {
@@ -42,11 +42,31 @@
     margin-right: 0;
     margin-top: 50px;
     margin-bottom: 25px;
+    margin-left: 50px;
     width: max-content;
 }
 
 a {
     text-decoration: none !important;
+    width: max-content;
+    vertical-align: top;
+}
+
+.downloadCV {
+    background-color: transparent;
+    border: 3px solid var(--headerColor);
+    border-radius: 5px;
+    bottom: 30px;
+    cursor: pointer;
+    font-family: var(--headerFont);
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 25px 35px;
+    float: left;
+    margin-top: 50px;
+    color: var(--headerColor);
+    transition: all .3s ease-in-out;
+    margin-left: 50px;
 }
 
 .contactBtn {
@@ -63,10 +83,10 @@ a {
     margin-top: 50px;
     color: var(--headerColor);
     transition: all .3s ease-in-out;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
-.contactBtn:hover {
+.contactBtn:hover, .downloadCV:hover {
     background-color: var(--headerColor);
     border: 3px solid var(--headerColor);
     transition: .3s ease-in-out;
@@ -82,7 +102,12 @@ a {
         font-size: 17px;
         width: 375px;
     }
-    #heading .contactBtn {
+
+    #heading .downloadCV {
+        margin-left: 50px;
+    }
+
+    #heading .contactBtn, .downloadCV {
         margin-top: 25px;
         font-size: .9em;
         padding: 15px 25px;
@@ -119,8 +144,12 @@ a {
         width: 100vw;   
         text-align: center;
     }
+
+    #landing .downloadCV {
+        margin-left: 50px;
+    }
     
-    #landing .contactBtn {
+    #landing .contactBtn, .downloadCV {
         text-align: center;
         margin-left: 0;
         position: relative;
@@ -142,3 +171,24 @@ a {
     }
 }
 /* ------------------------------------------------------------------- */
+
+@media only screen and (max-width: 375px) {
+    #heading .downloadCV {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #heading .buttons {
+        display: grid;
+    }
+
+    #heading .contactBtn {
+        margin-top: 0;
+    }
+
+    #heading .contactBtn, .downloadCV {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+}
