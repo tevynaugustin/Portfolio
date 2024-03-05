@@ -115,7 +115,7 @@ a {
     #landing #videoContainer {
         margin-left: 25px;
         position: relative;
-        top: 225px;
+        top: 150px;
     }
     #landing #videoContainer video {
         height: 350px;
@@ -127,7 +127,7 @@ a {
 @media only screen and (max-width: 1060px) {
     #landing #videoContainer {
         position: relative;
-        top: 280px;
+        top: 210px;
     }
     #landing #videoContainer video {
         height: 250px;
